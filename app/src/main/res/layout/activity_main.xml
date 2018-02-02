@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="300dp"
+    android:background="#F8EFBA"
+    android:layout_margin="10dp"
+    tools:context="com.example.shivam.firebaseintegrationtutorial.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Enter The Data"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/name_text"
+        android:hint="Enter Your Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/roll_no_text"
+        android:hint="Enter Your Roll No"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/submit_btn"
+        android:layout_weight="1"/>
+</LinearLayout>
